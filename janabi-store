@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/اسم_المستخدم/اسم_المستودع.git
+git add index.html
+git commit -m "إضافة صفحة متجر الجنابي"
+git push -u origin master
