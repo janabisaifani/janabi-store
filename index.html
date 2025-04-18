@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر الجنابي - أبو أصيل</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product h2 {
+      font-size: 1.5em;
+      margin: 10px 0;
+    }
+    .product p {
+      font-size: 1em;
+      color: #333;
+    }
+    .contact {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #006600;
+    }
+    .footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .contact-form {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    .contact-form button {
+      background-color: #006600;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>متجر الجنابي - أبو أصيل</h1>
+    <p>نوادر الجنابي اليمنية الأصلية للبيع</p>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="janabi1.jpg" alt="جنبية زراف">
+      <h2>جنبية زراف نادرة</h2>
+      <p>جنبية زراف مقرنة قديمة، حروف ذهب، مبسم فضة، نصل استيل. حالة ممتازة بسعر 11500 ريال سعودي.</p>
+      <p class="contact">للتواصل عبر الواتساب أو الاتصال: <a href="https://wa.me/967776754222">776754222</a></p>
+    </div>
+
+    <div class="product">
+      <img src="janabi2.jpg" alt="جنبية صيفاني">
+      <h2>جنبية صيفاني أصلية</h2>
+      <p>جنبية صيفاني قديمة، حروف ذهب حميري، مبسم فضة أصلي، نصل استيل. عرض خاص لفترة محدودة.</p>
+      <p class="contact">للطلب: <a href="https://wa.me/967776754222">776754222</a></p>
+    </div>
+
+    <div class="contact-form">
+      <h2>راسلنا مباشرة</h2>
+      <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="الاسم الكامل" required>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        <textarea name="message" rows="4" placeholder="رسالتك" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 متجر أبو أصيل لبيع الجنابي - صنع بكل فخر في اليمن
+  </footer>
+</body>
+</html>
